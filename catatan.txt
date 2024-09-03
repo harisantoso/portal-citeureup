@@ -1,0 +1,17 @@
+webpu laravel 11
+Blog portal Citeureup
+
+
+start 02-09-2024
+telah sampai
+finish 02-09-2024
+
+menjalankan app
+npm run dev
+
+bembuat alias
+alias graph="git log --all --decorate --oneline --graph"
+
+#tool/teknologi yg digunakan
+- react js
+- alpine js
