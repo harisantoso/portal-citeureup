@@ -3,7 +3,7 @@ Blog portal Citeureup
 
 
 start 02-09-2024
-telah sampai
+telah sampai 5
 finish 02-09-2024
 
 menjalankan app
@@ -12,6 +12,9 @@ npm run dev
 bembuat alias
 alias graph="git log --all --decorate --oneline --graph"
 
+- membuat component tanpa kelas
+php artisan make:component Header --view
+
 #tool/teknologi yg digunakan
-- react js
+- tailwind
 - alpine js
