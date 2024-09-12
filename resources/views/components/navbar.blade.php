@@ -3,7 +3,7 @@
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex items-center">
 				<div class="flex-shrink-0">
-					<img class="h-8 w-8" src="img/logo-hs.png" alt="HS">
+					<img class="h-8 w-8" src="../img/logo-hs.png" alt="HS">
 				</div>
 
 				<div class="hidden md:block">
@@ -35,7 +35,7 @@
 								id="user-menu-button" aria-expanded="false" aria-haspopup="true">
 								<span class="absolute -inset-1.5"></span>
 								<span class="sr-only">Open user menu</span>
-								<img class="h-8 w-8 rounded-full" src="img/hr.jpg" alt="hr">
+								<img class="h-8 w-8 rounded-full" src="../img/hr.jpg" alt="hr">
 							</button>
 						</div>
 
