@@ -3,7 +3,7 @@ Blog portal Citeureup
 
 
 start 02-09-2024
-telah sampai 5
+telah sampai 8
 finish 02-09-2024
 
 menjalankan app
@@ -17,4 +17,5 @@ php artisan make:component Header --view
 
 #tool/teknologi yg digunakan
 - tailwind
-- alpine js
+- alpineJS
+- TablePlus

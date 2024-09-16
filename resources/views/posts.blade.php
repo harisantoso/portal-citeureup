@@ -8,10 +8,11 @@
       <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">{{$post['title']}}</h2>
     </a>
     <div class="text-base text-gray-500">
-      <a href="#">{{$post['author']}}</a>| 25 July 2025
+      <!-- diffForHumans() format waktu baru saja -->
+      <a href="#">{{$post['author']}}</a>| {{ $post->created_at->format('j F Y') }}
     </div>
     <!-- limit string -->
-    <p class="my-4 font-light">{{Str::limit($post['body'], 150) }}</p>
+    <p class="my-4 font-light">{{Str::limit($post['body'], 300) }}</p>
     <a href="/posts/{{$post['slug']}}" class="font-medium text-blue-500 hover:underline">Read More &raquo;</a>
   </article>
 
